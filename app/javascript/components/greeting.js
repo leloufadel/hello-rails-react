@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
-import { fetchRandomMessage } from '../actions';
+import { fetchRandomMessage } from '../action';
 // import '../../assets/stylesheets/greeting.css';
 
 const Greeting = ({ randomMessage, fetchRandomMessage }) => {

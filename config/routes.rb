@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   namespace :api do
     get 'messages/random', to: 'messages#random_message'
   end
+  
 end
+
