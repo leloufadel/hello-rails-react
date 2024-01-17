@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { fetchRandomMessage } from '../action';
 
+
 const Greeting = ({ randomMessage, fetchRandomMessage }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [countdown, setCountdown] = useState(10);
